@@ -1,0 +1,30 @@
+.login {
+  background-color: transparent;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+ 
+  > .login__container {
+    padding: 100px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    color:gray;
+    border: 1px solid white;
+    animation: blink 3s linear infinite;
+    > img {
+      object-fit: contain;
+      height: 100px;
+      margin-bottom: 40px;
+    }
+    > button {
+      margin-top: 50px;
+      text-transform: inherit !important;
+      background-color: black !important;
+      color: white;
+      border: 1px solid white;
+    }
+  }
+}

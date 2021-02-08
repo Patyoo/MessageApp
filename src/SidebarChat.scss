@@ -1,0 +1,32 @@
+.sidebarChat {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  margin-right: 1px;
+  &:hover {
+    background-color: darkgray;
+  }
+  > h2 {
+    color: white;
+  }
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.sidebarChat__info {
+  margin-left: 15px;
+  border-radius: 10px;
+  width: fit-content;
+  > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  > .sidebarChat__lastMessage {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 25vw;
+  }
+}
